@@ -1,0 +1,36 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Helpers
+@import "../helpers";
+
+// Global
+@import "global";
+
+// Pages
+@import "pages/dashboard";
+
+// Plugins
+@import "../plugin/toastr/toastr.scss";
+@import "../plugin/sweetalert/sweetalert.scss";
+
+.navbar-default {
+  background-color: #7cbf4b;
+  border-color: transparent;
+  color: white;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+  color: white;
+  &:hover{
+    color:white;
+  }
+}
